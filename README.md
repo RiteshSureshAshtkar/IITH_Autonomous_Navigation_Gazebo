@@ -13,9 +13,17 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 This will launch the custom designed urdf of the differential drive robot in a custom world created from scratch.
 
+## SLAM map generation
+
+Open a new terminal and make sure you are in same workspace then copy paste the following commands to start slam_toolbox:
+```bash
+source install/setup.bash
+ros2 launch turtlebot3_slam_toolbox slam_toolbox.launch.py 
+```
+
 ## Navigation Setup
 
-Next open another terminal and copy paste the following commands:
+Next open another terminal and make sure you are in same workspace then copy paste the following commands to start Nav2 as well AMCL localization:
 
 ```bash
 source install/setup.bash
