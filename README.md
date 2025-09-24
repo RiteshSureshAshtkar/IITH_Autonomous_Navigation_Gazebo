@@ -22,3 +22,4 @@ source install/setup.bash
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_navigation2 navigation2_use_sim_time.launch.py
 ```
+This will launch the rviz2 screen with amcl localization and map of the custom world already loaded up
