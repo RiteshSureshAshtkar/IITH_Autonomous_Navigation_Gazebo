@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/robotics-pc-20/tb_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb1_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb1_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb1_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages",
+        "/home/robotics-pc-20/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/robotics-pc-20/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/robotics-pc-20/tb_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb1_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb1_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/tb1_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/robotics-pc-20/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages",
+        "/home/robotics-pc-20/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/robotics-pc-20/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

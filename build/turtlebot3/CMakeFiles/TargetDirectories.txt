@@ -1,0 +1,9 @@
+/home/davinci/tb_ws/build/turtlebot3/CMakeFiles/uninstall.dir
+/home/davinci/tb_ws/build/turtlebot3/CMakeFiles/turtlebot3_uninstall.dir
+/home/davinci/tb_ws/build/turtlebot3/CMakeFiles/test.dir
+/home/davinci/tb_ws/build/turtlebot3/CMakeFiles/edit_cache.dir
+/home/davinci/tb_ws/build/turtlebot3/CMakeFiles/rebuild_cache.dir
+/home/davinci/tb_ws/build/turtlebot3/CMakeFiles/list_install_components.dir
+/home/davinci/tb_ws/build/turtlebot3/CMakeFiles/install.dir
+/home/davinci/tb_ws/build/turtlebot3/CMakeFiles/install/local.dir
+/home/davinci/tb_ws/build/turtlebot3/CMakeFiles/install/strip.dir

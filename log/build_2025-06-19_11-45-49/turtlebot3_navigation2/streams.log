@@ -1,0 +1,53 @@
+[0.029s] Invoking command in '/home/davinci/tb_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/davinci/tb_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci/tb_ws/install/turtlebot3_navigation2
+[0.355s] -- The C compiler identification is GNU 13.3.0
+[0.355s] -- The CXX compiler identification is GNU 13.3.0
+[0.356s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.447s] -- Detecting C compile features
+[0.448s] -- Detecting C compile features - done
+[0.460s] -- Detecting CXX compiler ABI info
+[0.600s] -- Detecting CXX compiler ABI info - done
+[0.611s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.612s] -- Detecting CXX compile features
+[0.613s] -- Detecting CXX compile features - done
+[0.620s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.859s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.986s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.204s] -- Configuring done (1.2s)
+[1.208s] -- Generating done (0.0s)
+[1.210s] -- Build files have been written to: /home/davinci/tb_ws/build/turtlebot3_navigation2
+[1.217s] Invoked command in '/home/davinci/tb_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/davinci/tb_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci/tb_ws/install/turtlebot3_navigation2
+[1.218s] Invoking command in '/home/davinci/tb_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/tb_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[1.275s] Invoked command in '/home/davinci/tb_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/tb_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[1.277s] Invoking command in '/home/davinci/tb_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/tb_ws/build/turtlebot3_navigation2
+[1.290s] -- Install configuration: ""
+[1.290s] -- Execute custom install script
+[1.291s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.300s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2_use_sim_time.launch.py
+[1.313s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/123.yaml
+[1.320s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/my_map.pgm
+[1.333s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[1.346s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[1.357s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.370s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_use_sim_time.yaml
+[1.386s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.399s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi_use_sim_time.yaml
+[1.411s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/diffbot_r.rviz
+[1.425s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/navigation2.rviz
+[1.440s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.457s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.472s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.486s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.499s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.512s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.525s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.537s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.551s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.565s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.578s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.593s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.606s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.619s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.631s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.665s] Invoked command in '/home/davinci/tb_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/tb_ws/build/turtlebot3_navigation2

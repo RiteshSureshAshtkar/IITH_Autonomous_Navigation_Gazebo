@@ -1,0 +1,61 @@
+[0.032s] Invoking command in '/home/davinci/tb_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/davinci/tb_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci/tb_ws/install/turtlebot3_description
+[0.362s] -- The C compiler identification is GNU 13.3.0
+[0.363s] -- The CXX compiler identification is GNU 13.3.0
+[0.363s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.451s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.463s] -- Detecting CXX compiler ABI info
+[0.603s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.620s] -- Detecting CXX compile features
+[0.620s] -- Detecting CXX compile features - done
+[0.630s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.872s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.984s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.194s] -- Configuring done (1.1s)
+[1.199s] -- Generating done (0.0s)
+[1.199s] -- Build files have been written to: /home/davinci/tb_ws/build/turtlebot3_description
+[1.204s] Invoked command in '/home/davinci/tb_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/davinci/tb_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davinci/tb_ws/install/turtlebot3_description
+[1.206s] Invoking command in '/home/davinci/tb_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/tb_ws/build/turtlebot3_description -- -j8 -l8
+[1.262s] Invoked command in '/home/davinci/tb_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/tb_ws/build/turtlebot3_description -- -j8 -l8
+[1.277s] Invoking command in '/home/davinci/tb_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/tb_ws/build/turtlebot3_description
+[1.288s] -- Install configuration: ""
+[1.294s] -- Execute custom install script
+[1.294s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/launch/model.launch.py
+[1.305s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.319s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/burger.urdf.xacro
+[1.332s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/burger_camera.urdf.xacro
+[1.344s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf.xacro
+[1.356s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[1.368s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/waffle_pi.urdf.xacro
+[1.378s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/burger.gazebo.xacro
+[1.389s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/materials.xacro
+[1.404s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/waffle_pi.gazebo.xacro
+[1.416s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/base.stl
+[1.429s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/ladar.stl
+[1.441s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/left_tire.stl
+[1.454s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/right_tire.stl
+[1.468s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/base.stl
+[1.480s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/ladar.stl
+[1.495s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/left_tire.stl
+[1.510s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/right_tire.stl
+[1.524s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/ros2_control/turtlebot3_system.ros2_control.xacro
+[1.536s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/environment/turtlebot3_description.dsv
+[1.552s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[1.563s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[1.576s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[1.588s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[1.602s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[1.616s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[1.629s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[1.642s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.653s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.663s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[1.675s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[1.685s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[1.695s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[1.705s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[1.714s] -- Symlinking: /home/davinci/tb_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[1.725s] Invoked command in '/home/davinci/tb_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/tb_ws/build/turtlebot3_description
