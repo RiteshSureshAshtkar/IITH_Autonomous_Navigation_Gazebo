@@ -25,7 +25,6 @@ ros2 launch turtlebot3_slam_toolbox slam_toolbox.launch.py
 ## Navigation Setup
 
 Next open another terminal and make sure you are in same workspace then copy paste the following commands to start Nav2 as well AMCL localization:
-![Nav2 and AMCL](images/Nav2.png)
 
 ```bash
 source install/setup.bash
@@ -33,3 +32,4 @@ export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_navigation2 navigation2_use_sim_time.launch.py
 ```
 This will launch the rviz2 screen with amcl localization and map of the custom world already loaded up
+![Nav2 and AMCL](images/Nav2.png)
