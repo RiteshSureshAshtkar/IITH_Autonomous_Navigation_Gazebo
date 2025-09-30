@@ -1,4 +1,4 @@
-# TurtleBot3 Setup Guide
+# Gazebo Setup Guide
 
 ## Initial Setup
 
