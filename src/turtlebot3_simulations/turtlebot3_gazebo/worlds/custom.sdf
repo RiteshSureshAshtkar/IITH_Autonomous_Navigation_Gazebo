@@ -1458,7 +1458,7 @@
       <self_collide>false</self_collide>
     </model>
     <include>
-      <uri>file:///home/davinci/tb_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models/turtlebot3_burger</uri>
+      <uri>model://turtlebot3_burger</uri>
       <name>burger</name>
       <pose>-2 -0.5 0.01 0 0 0</pose>
     </include>
